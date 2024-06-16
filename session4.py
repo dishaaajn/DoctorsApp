@@ -13,5 +13,11 @@ print("is otp is correct", otp == user_otp)
 
 # membership testing
 a = 10
-bn= 10
+b = 10
 print ( a == b, a is b)
+
+#problem1
+speed = int(input("enter the speedof the train :"))
+speed*=5/18
+time = int(input("enter the time :"))
+print("the length of the train is", speed*time , "m")
