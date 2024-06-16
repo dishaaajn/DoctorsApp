@@ -5,6 +5,8 @@
 promocode = input ( "please enter te promocode : ")
 amount = int(input("please enter the amount : "))
 
+
+# CONDITIONAL CONSTRUCT
 if promocode == "ZOMATO":
     print ("promocode is valid")
     
