@@ -28,47 +28,6 @@ Backend	Python (Flask/Django)
 Database	MongoDB / MySQL
 Authentication	JWT-based security system
 Deployment	Docker, AWS, or Heroku (Optional)
-Installation Guide
-To set up and run the Doctor's App locally, follow these steps:
-
-1. Clone the Repository
-Open your terminal or command prompt and run:
-
-bash
-Copy
-Edit
-git clone https://github.com/dishaaajn/DoctorsApp.git
-cd DoctorsApp
-2. Set Up a Virtual Environment (Recommended)
-To avoid conflicts with system-wide dependencies, create and activate a virtual environment:
-
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate  # macOS/Linux
-venv\Scripts\activate  # Windows
-3. Install Dependencies
-Once the virtual environment is activated, install the required packages:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-4. Run the Application
-Start the server with:
-
-bash
-Copy
-Edit
-python app.py
-5. Access the Application
-Once the server is running, open your browser and go to:
-
-arduino
-Copy
-Edit
-http://localhost:5000
 Usage Instructions
 Login/Register: Doctors must sign up and log in to access patient records.
 Dashboard: The homepage provides a summary of patient statistics and upcoming appointments.
